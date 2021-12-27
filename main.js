@@ -123,7 +123,7 @@ app.post('/addevent', async (req, res) => {
                 service: 'gmail',
                 auth: {
                   user: 'sapnachhabi07@gmail.com',
-                  pass: 'Chhabiii'
+                  pass: 'Chhabiii832197@'
                 }
               });
               
