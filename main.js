@@ -131,7 +131,14 @@ app.post('/addevent', async (req, res) => {
                 from: 'sapnachhabi07@gmail.com',
                 to: commaSeparatedEmail,
                 subject: `Upcoming Event  ${event.name} ` ,
-                html: "<p>join the event</p> <br> <a href='https://sapna-sinha.github.io/EventCall/login.html'> Link to join the event</a>"
+                html: `<p> 
+                  Hey 🙋🏻‍♀️ 
+                 New Event Calling !!! <br>
+
+                 Did you heard about the new event being organised... No ?? <br>
+
+                Don't wait just click on link to know more and register yourself</p> 
+                  <br> <a href='https://sapna-sinha.github.io/EventCall/login.html'> Link to join the event</a>`
               };
               
               transporter.sendMail(mailOptions, function(error, info){
